@@ -38,10 +38,10 @@ extern char **environ;
 
 
 /**
- * struct liststr - singly linked list
+ * struct liststr - function for singly linked list
  * @num: the number field
  * @str: a string
- * @next: points to the next node
+ * @next: This points to the next node
  */
 typedef struct liststr
 {
@@ -100,8 +100,8 @@ typedef struct passinfo
 	0, 0, 0}
 
 /**
- *struct builtin - contains a builtin string and related function
- *@type: the builtin command flag
+ *struct builtin - the builtin string and related function
+ *@type: the  command flag
  *@func: the function
  */
 typedef struct builtin
